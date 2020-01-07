@@ -1,7 +1,7 @@
 # Site settings
 title: DSwrod Blog                                #你博客的标题
 SEOTitle: 不再联系的博客 | DSwrod Blog            #显示在浏览器上搜索的时候显示的标题
-header-img: img/post-bg-desk.jpg                  #显示在首页的背景图片
+header-img: img/post-bg-desk-1.jpg                  #显示在首页的背景图片
 email: dh12313012@163.com
 description: "For some unexplained persistence."  #网站介绍
 keyword: "DSwrod, DSwrod Blog, 大数据，算法"      #关键字
