@@ -79,7 +79,7 @@ const getRedirectUrl = (req) => {
 self.addEventListener('install', e => {
   e.waitUntil(
     caches.open(PRECACHE).then(cache => {
-      return cache.add('offline.html')
+      return cache.add('/_includes/offline.html')
       .then(self.skipWaiting())
       .catch(err => console.log(err))
     })
@@ -135,7 +135,7 @@ self.addEventListener('fetch', event => {
     event.respondWith(
       Promise.race([fetched.catch(_ => cached), cached])
         .then(resp => resp || fetched)
-        .catch(_ => caches.match('offline.html'))
+        .catch(_ => caches.match('/_includes/offline.html'))
     );
 
     // Update the cache with the version we fetched (only for ok status)
