@@ -1,10 +1,10 @@
 # Site settings
-title: DSwrod Blog                                #你博客的标题
-SEOTitle: 不再联系的博客 | DSwrod Blog            #显示在浏览器上搜索的时候显示的标题
-header-img: img/post-bg-desk-1.jpg                  #显示在首页的背景图片
+title: DSword Blog                                #你博客的标题
+SEOTitle: 不再联系的博客 | DSword Blog            #显示在浏览器上搜索的时候显示的标题
+header-img: img/post-bg-desk-3.jpg                  #显示在首页的背景图片
 email: dh12313012@163.com
 description: "For some unexplained persistence."  #网站介绍
-keyword: "DSwrod, DSwrod Blog, 大数据，算法"      #关键字
+keyword: "DSword, DSword Blog, 大数据，算法"      #关键字
 url: "http://dh12313012.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/dh12313012/dh12313012.github.io.git" # you code repository
