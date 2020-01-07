@@ -87,7 +87,8 @@ gitalk:
 
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+#博客建立初期，博客数量比较少，那么久将下面的数字变成0
+featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
 
 
 
